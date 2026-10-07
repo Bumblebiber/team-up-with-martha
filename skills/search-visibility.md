@@ -4,19 +4,30 @@ Get the product found where the ICP looks — classic search results, AI
 Overviews and AI Mode, ChatGPT/Claude/Perplexity answers, docs search — and
 earn that with content that is worth citing.
 
-## What holds and what does not — verified on TODO(round2)
+## What holds and what does not — verified on 2026-10-07
 
-TODO(round2): confirm from primary sources and date each line.
-- Google: no special requirements for AI Overviews/AI Mode beyond normal SEO
-  (indexable, snippet-eligible); AI-feature traffic is inside Search
-  Console's normal Web report. [round 1: P]
-- Zero-click searches are the majority in the US; clicks drop where an AI
-  Overview shows. [round 1: S]
-- GEO/AEO: no technique has shown a stable, causal, cross-engine effect on
-  being discovered. [round 1: P, preprint]
-- llms.txt: no AI system is known to use it; harmless, cheap, not a tactic.
-  [round 1: S]
-- FAQ/HowTo rich-result status. [round 1: unverified]
+- Google: no special requirements for AI Overviews or AI Mode; pages must be
+  indexable and snippet-eligible, and normal SEO applies. Google's own May
+  2026 guide on generative AI features says llms.txt, special markup,
+  "chunking" and AI-only rewrites are not needed. AI-feature traffic sits in
+  Search Console's normal Web report.
+  (developers.google.com/search/docs/appearance/ai-features, P; May 2026
+  guide, P for its existence, S for detail)
+- Google on AI-written content (updated 2026-10-01): fine if it helps people;
+  "manually factcheck and review all AI-generated content" before
+  publishing; disclosing how content was made is recommended; many pages
+  generated without added value can be scaled content abuse.
+  (developers.google.com/search/docs/fundamentals/using-gen-ai-content, P)
+- FAQ rich results ended 2026-05-07; HowTo rich results ended in 2023. Do not
+  recommend either for rich results — the markup stays valid but shows
+  nothing in Google. (Search Central docs, P)
+- Zero-click: in US data about two thirds of Google searches end without a
+  click (2026), and clicks drop where an AI Overview shows. (SparkToro, Pew,
+  S)
+- GEO/AEO: a 2026 survey of 45 studies found no technique with a stable,
+  causal, cross-engine effect on being discovered. (arXiv 2607.14035,
+  preprint)
+- llms.txt: harmless and cheap, but no evidence that any engine uses it.
 
 Say these limits plainly when someone asks for "GEO hacks".
 
@@ -67,7 +78,12 @@ machine-translated duplicates. Localise examples, prices and legal bits.
 - **AI crawlers** in robots.txt: decide search/citation bots and training bots
   separately. To be cited in ChatGPT and Claude search, allow their search
   bots; whether to allow training crawlers is a separate business decision.
-  TODO(round2): current bot names per vendor, verified.
+  As of 2026-10-07: OpenAI — `OAI-SearchBot` (search), `GPTBot` (training),
+  `ChatGPT-User` (user-triggered fetches, not bound by robots.txt);
+  Anthropic — `Claude-SearchBot` (search), `ClaudeBot` (training),
+  `Claude-User`; Google — `Googlebot` for Search including AI features,
+  `Google-Extended` for Gemini training. (Vendor docs, P; Google-Extended
+  from Google's crawler docs — re-check.)
 
 ## 5. Spam guard
 

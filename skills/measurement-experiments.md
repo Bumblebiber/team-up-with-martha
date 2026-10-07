@@ -58,17 +58,37 @@ confidence, ease, 1–10) and show the scores.
 - Developer tools: package downloads, GitHub traffic and stars, docs visits.
   CLI telemetry only opt-in, documented, minimal.
 
-## 5. Tracking and consent — verified on TODO(round2)
+## 5. Tracking and consent — verified on 2026-10-07
 
-- In Germany any access to the user's device that is not strictly necessary
-  needs consent (§25 TDDDG; the law was TTDSG until 2024). Google Analytics
-  needs consent; the reject option must be as easy as accept.
-- TODO(round2): Consent Mode v2 signals and any 2026 change; GA4 retention;
-  current position on consent-free cookieless/server-side analytics.
-- Recommend the least tracking that answers the questions. A cookieless,
-  privacy-friendly tool plus UTMs is often enough for a small product;
-  whether it can run without consent depends on its configuration — flag it
-  for the human to confirm rather than asserting it.
+- **§25 TDDDG** (the TTDSG until 2024): storing or reading anything on the
+  user's device needs consent unless it is strictly necessary for the
+  service the user asked for. "Strictly necessary" is technical, not
+  economic. (gesetze-im-internet.de, P)
+- **Analytics without consent**: the German data-protection authorities
+  (DSK, OH Digitale Dienste v1.2, Rn. 87–92) refuse a blanket exemption for
+  reach measurement. Even simple visitor counting is not automatically part
+  of the service; the answer depends on the exact configuration and purpose.
+  A setup that stores and reads nothing on the device (server logs, a
+  cookieless tool configured that way) arguably falls outside §25 — but the
+  DSGVO still applies, and no authority or court has blessed a named tool.
+  Say "likely consent-free if configured without device access; confirm
+  with a lawyer", never "consent-free". (DSK, P; the inference is a
+  hypothesis)
+- **Google Analytics** needs consent in Germany. Consent Mode v2 signals:
+  `ad_storage`, `analytics_storage`, `ad_user_data`, `ad_personalization`.
+  Since 2026-06-15 Consent Mode is the single control for advertising data
+  to linked Google Ads accounts; the Google-signals switch no longer
+  protects you, so `ad_storage` must be denied correctly. Basic mode blocks
+  tags until consent; advanced mode sends cookieless pings when denied.
+  (support.google.com/analytics answers 17016975 and 9976101, P)
+- **GA4 retention**: event-level data 2 or 14 months on standard properties.
+  (support.google.com/analytics/answer/7667196, P)
+- **Server-side tracking** does not escape the consent rule if it still
+  reads from the device; the EDPB reads the ePrivacy rule as covering
+  tracking techniques beyond cookies. (EDPB Guidelines 2/2023, S)
+- Recommend the least tracking that answers the questions. For a small
+  product a cookieless tool plus UTMs and self-reported attribution is
+  usually enough.
 
 ## 6. Reading data
 
