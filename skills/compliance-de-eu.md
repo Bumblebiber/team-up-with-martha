@@ -17,12 +17,14 @@ decides the outcome and is older than three months, re-check its source.
 
 P = statute, authority or the platform itself; S = law-firm or other
 summary. Research behind this list: team-up runs `20261007T094516Z-kxv1` and
-`20261007T095044Z-s6sq`.
+`20261007T095044Z-s6sq`. Items tagged `[unverified]` were not part of that
+research — likely right, but re-check the source before they decide an
+outcome.
 
 1. **Misleading and comparative claims (UWG §§5, 5a, 6)** — superlatives,
    "#1", "fastest", "better than X" need provable facts at the time of
    publication. Comparisons must be objective, verifiable and about
-   comparable things. Cite proof or remove. (UWG, P)
+   comparable things. Cite proof or remove. (UWG; §§5, 6 text not re-read — S)
 2. **Email advertising (UWG §7)** — prior express consent (§7 Abs. 2 Nr. 2);
    double opt-in is how consent gets proven, so keep the record.
    Existing-customer exception (§7 Abs. 3) only when all four conditions
@@ -49,14 +51,14 @@ summary. Research behind this list: team-up runs `20261007T094516Z-kxv1` and
 6. **Environmental claims (EmpCo)** — in force since **2026-09-27** through
    the Drittes Gesetz zur Änderung des UWG, BGBl. 2026 I Nr. 43
    (recht.bund.de, P). `block` unless proven:
-   - generic claims — "klimafreundlich", "klimaneutral", "nachhaltig",
-     "grün", "umweltfreundlich", "eco" — without recognised excellent
+   - generic claims — "klimafreundlich", "nachhaltig", "grün",
+     "umweltfreundlich" — without recognised excellent
      environmental performance;
    - "climate neutral" or "CO₂-compensated" based on offsetting;
-   - sustainability labels not based on an approved certification scheme or
-     set by public authorities — no home-made badges;
-   - future claims ("net zero by 2030") without a detailed, verifiable plan
-     with interim targets and independent monitoring.
+   - sustainability labels that are not state-approved or independently
+     monitored schemes — no home-made badges;
+   - future claims ("net zero by 2030") without a defined, verifiable,
+     time-bound plan.
    The transition rule §15b UWG covers only goods placed on the market
    before 2026-09-27; websites and online advertising get no grace period.
    (Law firms and IHK, S.) For software: flag "green hosting",
@@ -68,8 +70,7 @@ summary. Research behind this list: team-up runs `20261007T094516Z-kxv1` and
    (Commission FAQ, P; Omnibus via summaries, S)
    - **Deepfakes** — realistic generated or manipulated images, audio or
      video of real people, places or events — must be disclosed clearly at
-     first exposure. Obviously artistic or satirical work gets a lighter
-     duty. `block` if undisclosed.
+     first exposure. `block` if undisclosed.
    - **AI-generated text** published to inform the public on matters of
      public interest — politics, health, environment, consumer safety,
      economic or scientific developments of public debate — must be
@@ -87,13 +88,13 @@ summary. Research behind this list: team-up runs `20261007T094516Z-kxv1` and
      (Platform pages, P except Meta/TikTok, S)
    - Disclosure lowers trust in some studies and not in others (S). Where
      the law or the platform requires it, it is not optional.
-8. **Data protection (DSGVO)** — a privacy notice for every form, list and
+8. **Data protection (DSGVO)** `[unverified]` — a privacy notice for every form, list and
    tracker; a data-processing agreement with every email, analytics and CRM
    provider; collect only the fields you need.
-9. **Dark patterns** — no fake countdowns, fake scarcity ("only 2 left" when
+9. **Dark patterns** `[unverified]` — no fake countdowns, fake scarcity ("only 2 left" when
    untrue), confirmshaming, hidden costs or pre-ticked add-ons. (UWG
    blacklist; EU Digital Services Act for platforms.)
-10. **Prices (PAngV)** — consumer prices shown as final prices including
+10. **Prices (PAngV)** `[unverified]` — consumer prices shown as final prices including
     VAT; a "was" price must be the lowest price of the last 30 days.
 
 ## Outside Germany

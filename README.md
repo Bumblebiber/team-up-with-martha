@@ -46,7 +46,7 @@ git clone https://github.com/Bumblebiber/team-up-with-martha
 team-up specialist inspect ./team-up-with-martha     # read-only, always first
 team-up specialist install ./team-up-with-martha
 # install also grants Martha every project; older team-up needs:
-# team-up specialist approve marketing.martha@0.2.0 --global
+# team-up specialist approve marketing.martha@0.2.1 --global
 ```
 
 ## Run

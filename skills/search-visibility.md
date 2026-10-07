@@ -82,8 +82,8 @@ machine-translated duplicates. Localise examples, prices and legal bits.
   `ChatGPT-User` (user-triggered fetches, not bound by robots.txt);
   Anthropic — `Claude-SearchBot` (search), `ClaudeBot` (training),
   `Claude-User`; Google — `Googlebot` for Search including AI features,
-  `Google-Extended` for Gemini training. (Vendor docs, P; Google-Extended
-  from Google's crawler docs — re-check.)
+  `Google-Extended` for Gemini training `[unverified]`. (OpenAI and
+  Anthropic docs, P.)
 
 ## 5. Spam guard
 
