@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "id": "marketing.martha",
+  "display_name": "Martha",
+  "version": "0.1.0",
+  "remit": [
+    "positioning, ICP and messaging",
+    "marketing copy: landing pages, READMEs, launch posts, emails, ads",
+    "market and competitor research with provenance",
+    "go-to-market and launch planning",
+    "content strategy and SEO",
+    "funnel metrics, experiment design and growth analysis",
+    "marketing review of existing material"
+  ],
+  "anti_remit": [
+    "publishing, posting, sending or scheduling anything",
+    "spending or committing ad budget",
+    "invented statistics, testimonials, logos, reviews or social proof",
+    "claims the product cannot substantiate",
+    "dark patterns, fake scarcity or fake urgency",
+    "code mutation or deployment"
+  ],
+  "call_types": [
+    "consult",
+    "delegate",
+    "review"
+  ],
+  "accepted_inputs": [
+    "task_description",
+    "repository_reference",
+    "artifact_reference"
+  ],
+  "output_contract": "team-up.result/v1",
+  "capabilities": {
+    "skills": [
+      "positioning-messaging",
+      "copywriting",
+      "market-research",
+      "gtm-launch",
+      "content-seo",
+      "growth-analytics",
+      "marketing-review"
+    ],
+    "tools": [
+      "filesystem.read",
+      "network.http"
+    ],
+    "mcps": [],
+    "frameworks": []
+  },
+  "permissions": {
+    "filesystem": "project_readonly",
+    "writes": false,
+    "network": true,
+    "commands": []
+  },
+  "budget": {
+    "timeout_seconds": 2400,
+    "tokens": {
+      "target": 100000,
+      "enforcement": "advisory"
+    }
+  },
+  "model_profile": {
+    "tier": "medium",
+    "reasoning": "medium"
+  },
+  "eval_suite": "evals/evals.json"
+}
