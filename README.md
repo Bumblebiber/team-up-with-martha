@@ -1,7 +1,9 @@
 # team-up-with-martha
 
 Martha, the marketing specialist for
-[team-up](https://github.com/Bumblebiber/team-up).
+[team-up](https://github.com/Bumblebiber/team-up): a read-only marketing
+worker your Claude Code session can hand positioning, copy, launch plans and
+reviews to.
 
 One repository, one specialist. This one holds a manifest, instructions, seven
 skills and an eval suite — no code, no model names, no install hooks.
@@ -15,7 +17,8 @@ design, and reviews of existing marketing material.
 
 Every claim she writes traces to a proof point or is marked `[NEEDS PROOF]`.
 Copy goes through a claims and compliance check (substantiation under UWG/FTC,
-consent for email under DSGVO, ad labelling, no dark patterns).
+email consent under UWG §7, ad labelling, green claims, AI Act labelling,
+no dark patterns). Every review ends in a SHIP / FIX / BLOCK / UNDECIDED gate.
 
 She does not publish, post, send or schedule anything, does not spend ad
 budget, and never invents statistics, testimonials or social proof. She runs
@@ -36,8 +39,9 @@ tasks to files.
 | `compliance-de-eu` | UWG, email consent, TDDDG, Impressum, ad labels, green claims, AI Act Art. 50, DSGVO, prices |
 | `marketing-review` | Prioritised review with a SHIP / FIX / BLOCK / UNDECIDED gate |
 
-Dated rules carry a "verified on" date. The research behind 0.2.0 is in the
-team-up runs `20261007T094516Z-kxv1` and `20261007T095044Z-s6sq`.
+Dated rules carry a "verified on" date and get re-checked before they decide
+an outcome. Details the underlying research did not cover are tagged
+`[unverified]`.
 
 ## Install
 
