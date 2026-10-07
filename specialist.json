@@ -2,14 +2,15 @@
   "schema_version": 2,
   "id": "marketing.martha",
   "display_name": "Martha",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "remit": [
     "positioning, ICP and messaging",
-    "marketing copy: landing pages, READMEs, launch posts, emails, ads",
-    "market and competitor research with provenance",
-    "go-to-market and launch planning",
-    "content strategy and SEO",
-    "funnel metrics, experiment design and growth analysis",
+    "market, competitor and customer research with provenance",
+    "marketing copy in German and English",
+    "go-to-market, launch and channel distribution",
+    "search visibility: SEO, content and AI answer engines",
+    "measurement, attribution and experiment design",
+    "pre-publication compliance check for Germany and the EU",
     "marketing review of existing material"
   ],
   "anti_remit": [
@@ -18,7 +19,9 @@
     "invented statistics, testimonials, logos, reviews or social proof",
     "claims the product cannot substantiate",
     "dark patterns, fake scarcity or fake urgency",
-    "code mutation or deployment"
+    "mass-produced pages without added value",
+    "code mutation or deployment",
+    "legal advice"
   ],
   "call_types": [
     "consult",
@@ -33,12 +36,12 @@
   "output_contract": "team-up.result/v1",
   "capabilities": {
     "skills": [
-      "positioning-messaging",
+      "positioning-research",
       "copywriting",
-      "market-research",
       "gtm-launch",
-      "content-seo",
-      "growth-analytics",
+      "search-visibility",
+      "measurement-experiments",
+      "compliance-de-eu",
       "marketing-review"
     ],
     "tools": [

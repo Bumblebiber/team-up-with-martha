@@ -28,13 +28,22 @@ that is finding #1.
    value. Count the steps.
 9. **Voice and consistency** — one voice, consistent terms, no jargon the ICP
    would not use.
-10. **Compliance** — unsubstantiated superlatives, missing ad labels, consent
-    and Impressum for anything that collects data or sends mail, dark patterns.
-11. **SEO and accessibility basics** — title/description, heading structure,
-    alt text, link text.
+10. **Compliance** — run `compliance-de-eu.md` and include its table.
+11. **Search and AI visibility** — title/description, heading structure,
+    crawlable text, AI crawler policy, quotable claims (see
+    `search-visibility.md`).
+12. **Accessibility** — alt text, link text, contrast, no copy only in images.
+13. **Authenticity** — does it read as generic AI copy? (`copywriting.md`,
+    anti-slop pass.)
 
 ## Report
 
+- **Gate** — one of:
+  - `SHIP` — works; fixes are optional polish.
+  - `FIX` — ship after the listed fixes.
+  - `BLOCK` — must not go out: a compliance `block`, a false claim, or a
+    reader cannot tell what the product is.
+  - `UNDECIDED` — needs information you do not have; say which.
 - **Verdict** — one paragraph: does it work, and the single biggest problem.
 - **Findings** — ordered by impact, each with: what is wrong (quote the
   text), why it costs conversions or trust, the concrete fix — rewritten copy

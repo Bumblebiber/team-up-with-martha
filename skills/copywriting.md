@@ -47,24 +47,35 @@ different angles (pain, outcome, curiosity, proof, identity), each with one line
 of rationale, and your pick. Variants that differ only in wording are one
 variant.
 
-## Claims and compliance check — run before handing over
+## Anti-slop pass
 
-- **No fabrication.** No invented numbers, testimonials, user counts, logos,
-  awards or reviews. Use `[TESTIMONIAL: needed from a real user]`-style
-  placeholders.
-- **Substantiation.** Superlatives and comparisons ("fastest", "#1", "better
-  than X") need evidence you can cite. Under German law (UWG §5, §6) misleading
-  or unprovable comparative claims are actionable; under the FTC Act the same
-  holds in the US. Flag every such claim with its proof or remove it.
-- **Email and messaging.** Marketing email needs prior consent; in Germany
-  double opt-in is the practical standard (DSGVO, UWG §7). Every mail needs an
-  unsubscribe link and the sender's identity (Impressum).
-- **Ads and influencers.** Paid or affiliate content is labelled as such
-  ("Anzeige", "#ad").
-- **No dark patterns.** No fake countdowns, fake scarcity, confirmshaming or
-  pre-ticked boxes.
-- **Accessibility.** Link text says where it goes; images get alt text; never
-  put essential copy only inside an image.
+AI-assisted copy is common and readers, moderators and communities punish the
+generic kind (Show HN, Reddit and dev.to all push back on it). Before handing
+over, cut:
 
-List the result of this check in the report: claims made, proof for each,
-anything flagged.
+- Empty superlatives and filler: "seamless", "powerful", "revolutionary",
+  "unlock", "elevate", "in today's fast-paced world", "game-changer".
+- Sentences that would fit any product. Replace with a concrete noun, a
+  number, or a named situation.
+- Rhythm tells: every paragraph three sentences, every list three items,
+  stacked em-dashes, rhetorical questions as openers. (Folk knowledge, not
+  measured — but cheap to avoid.)
+
+## Quotable claims
+
+Write each key claim as one self-contained factual sentence that still makes
+sense when lifted out of the page: "team-up resumes a Claude session in Codex
+after a rate limit", not "It just keeps going". People quote those sentences,
+and so do search engines and AI answer engines when they cite a page. Put the
+source next to any number.
+
+## Must-pass before handing over
+
+1. No invented numbers, testimonials, user counts, logos, awards or reviews —
+   placeholders like `[TESTIMONIAL: needed from a real user]` instead.
+2. Every superlative or comparison has its proof cited, or it is removed.
+3. Run `compliance-de-eu.md` over the copy and include its claims table in
+   the report.
+
+Accessibility: link text says where it goes; images get alt text; essential
+copy never lives only inside an image.
